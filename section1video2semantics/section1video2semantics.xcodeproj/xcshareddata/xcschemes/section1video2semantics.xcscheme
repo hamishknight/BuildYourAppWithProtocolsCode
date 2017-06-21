@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1C87B30E1EE6D0D70042DCBF"
-               BuildableName = "vol2section1video2semantics"
-               BlueprintName = "vol2section1video2semantics"
-               ReferencedContainer = "container:vol2section1video2semantics.xcodeproj">
+               BuildableName = "section1video2semantics"
+               BlueprintName = "section1video2semantics"
+               ReferencedContainer = "container:section1video2semantics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1C87B30E1EE6D0D70042DCBF"
-            BuildableName = "vol2section1video2semantics"
-            BlueprintName = "vol2section1video2semantics"
-            ReferencedContainer = "container:vol2section1video2semantics.xcodeproj">
+            BuildableName = "section1video2semantics"
+            BlueprintName = "section1video2semantics"
+            ReferencedContainer = "container:section1video2semantics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1C87B30E1EE6D0D70042DCBF"
-            BuildableName = "vol2section1video2semantics"
-            BlueprintName = "vol2section1video2semantics"
-            ReferencedContainer = "container:vol2section1video2semantics.xcodeproj">
+            BuildableName = "section1video2semantics"
+            BlueprintName = "section1video2semantics"
+            ReferencedContainer = "container:section1video2semantics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1C87B30E1EE6D0D70042DCBF"
-            BuildableName = "vol2section1video2semantics"
-            BlueprintName = "vol2section1video2semantics"
-            ReferencedContainer = "container:vol2section1video2semantics.xcodeproj">
+            BuildableName = "section1video2semantics"
+            BlueprintName = "section1video2semantics"
+            ReferencedContainer = "container:section1video2semantics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
