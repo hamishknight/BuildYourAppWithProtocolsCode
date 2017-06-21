@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C494C6E1EEEAEAC00F32DE9"
-               BuildableName = "vol2section1video6collection"
-               BlueprintName = "vol2section1video6collection"
-               ReferencedContainer = "container:vol2section1video6collection.xcodeproj">
+               BlueprintIdentifier = "1C0477C81EEB5AE0001C5261"
+               BuildableName = "section1video7drawingapp.app"
+               BlueprintName = "section1video7drawingapp"
+               ReferencedContainer = "container:section1video7drawingapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C494C6E1EEEAEAC00F32DE9"
-            BuildableName = "vol2section1video6collection"
-            BlueprintName = "vol2section1video6collection"
-            ReferencedContainer = "container:vol2section1video6collection.xcodeproj">
+            BlueprintIdentifier = "1C0477C81EEB5AE0001C5261"
+            BuildableName = "section1video7drawingapp.app"
+            BlueprintName = "section1video7drawingapp"
+            ReferencedContainer = "container:section1video7drawingapp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C494C6E1EEEAEAC00F32DE9"
-            BuildableName = "vol2section1video6collection"
-            BlueprintName = "vol2section1video6collection"
-            ReferencedContainer = "container:vol2section1video6collection.xcodeproj">
+            BlueprintIdentifier = "1C0477C81EEB5AE0001C5261"
+            BuildableName = "section1video7drawingapp.app"
+            BlueprintName = "section1video7drawingapp"
+            ReferencedContainer = "container:section1video7drawingapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C494C6E1EEEAEAC00F32DE9"
-            BuildableName = "vol2section1video6collection"
-            BlueprintName = "vol2section1video6collection"
-            ReferencedContainer = "container:vol2section1video6collection.xcodeproj">
+            BlueprintIdentifier = "1C0477C81EEB5AE0001C5261"
+            BuildableName = "section1video7drawingapp.app"
+            BlueprintName = "section1video7drawingapp"
+            ReferencedContainer = "container:section1video7drawingapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

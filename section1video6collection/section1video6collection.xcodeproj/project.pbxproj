@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C494C731EEEAEAC00F32DE9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C494C721EEEAEAC00F32DE9 /* main.swift */; };
+		1CD4A4BB1EFAE34300AA60F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BA1EFAE34300AA60F6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1C494C6F1EEEAEAC00F32DE9 /* vol2section1video6collection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vol2section1video6collection; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C494C721EEEAEAC00F32DE9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C494C6F1EEEAEAC00F32DE9 /* section1video6collection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section1video6collection; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD4A4BA1EFAE34300AA60F6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		1C494C661EEEAEAC00F32DE9 = {
 			isa = PBXGroup;
 			children = (
-				1C494C711EEEAEAC00F32DE9 /* vol2section1video6collection */,
+				1CD4A4B91EFAE34300AA60F6 /* section1video6collection */,
 				1C494C701EEEAEAC00F32DE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		1C494C701EEEAEAC00F32DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C494C6F1EEEAEAC00F32DE9 /* vol2section1video6collection */,
+				1C494C6F1EEEAEAC00F32DE9 /* section1video6collection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C494C711EEEAEAC00F32DE9 /* vol2section1video6collection */ = {
+		1CD4A4B91EFAE34300AA60F6 /* section1video6collection */ = {
 			isa = PBXGroup;
 			children = (
-				1C494C721EEEAEAC00F32DE9 /* main.swift */,
+				1CD4A4BA1EFAE34300AA60F6 /* main.swift */,
 			);
-			path = vol2section1video6collection;
+			path = section1video6collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C494C6E1EEEAEAC00F32DE9 /* vol2section1video6collection */ = {
+		1C494C6E1EEEAEAC00F32DE9 /* section1video6collection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C494C761EEEAEAC00F32DE9 /* Build configuration list for PBXNativeTarget "vol2section1video6collection" */;
+			buildConfigurationList = 1C494C761EEEAEAC00F32DE9 /* Build configuration list for PBXNativeTarget "section1video6collection" */;
 			buildPhases = (
 				1C494C6B1EEEAEAC00F32DE9 /* Sources */,
 				1C494C6C1EEEAEAC00F32DE9 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = vol2section1video6collection;
+			name = section1video6collection;
 			productName = vol2section1video6collection;
-			productReference = 1C494C6F1EEEAEAC00F32DE9 /* vol2section1video6collection */;
+			productReference = 1C494C6F1EEEAEAC00F32DE9 /* section1video6collection */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C494C6A1EEEAEAC00F32DE9 /* Build configuration list for PBXProject "vol2section1video6collection" */;
+			buildConfigurationList = 1C494C6A1EEEAEAC00F32DE9 /* Build configuration list for PBXProject "section1video6collection" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C494C6E1EEEAEAC00F32DE9 /* vol2section1video6collection */,
+				1C494C6E1EEEAEAC00F32DE9 /* section1video6collection */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C494C731EEEAEAC00F32DE9 /* main.swift in Sources */,
+				1CD4A4BB1EFAE34300AA60F6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +239,7 @@
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -249,14 +249,14 @@
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C494C6A1EEEAEAC00F32DE9 /* Build configuration list for PBXProject "vol2section1video6collection" */ = {
+		1C494C6A1EEEAEAC00F32DE9 /* Build configuration list for PBXProject "section1video6collection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C494C741EEEAEAC00F32DE9 /* Debug */,
@@ -265,7 +265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C494C761EEEAEAC00F32DE9 /* Build configuration list for PBXNativeTarget "vol2section1video6collection" */ = {
+		1C494C761EEEAEAC00F32DE9 /* Build configuration list for PBXNativeTarget "section1video6collection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C494C771EEEAEAC00F32DE9 /* Debug */,

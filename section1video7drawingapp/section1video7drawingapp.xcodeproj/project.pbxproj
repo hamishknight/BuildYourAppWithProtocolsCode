@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0477CD1EEB5AE0001C5261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0477CC1EEB5AE0001C5261 /* AppDelegate.swift */; };
-		1C0477CF1EEB5AE0001C5261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0477CE1EEB5AE0001C5261 /* ViewController.swift */; };
-		1C0477D21EEB5AE0001C5261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0477D01EEB5AE0001C5261 /* Main.storyboard */; };
-		1C0477D41EEB5AE0001C5261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0477D31EEB5AE0001C5261 /* Assets.xcassets */; };
-		1C0477D71EEB5AE0001C5261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0477D51EEB5AE0001C5261 /* LaunchScreen.storyboard */; };
-		1C0477DF1EEB5F6C001C5261 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0477DE1EEB5F6C001C5261 /* CanvasView.swift */; };
-		1C0477E11EEB600E001C5261 /* UndoRedoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0477E01EEB600E001C5261 /* UndoRedoStack.swift */; };
-		1C41B51C1EECA97C00459EAE /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41B51B1EECA97C00459EAE /* Drawable.swift */; };
-		1C41B51E1EED648700459EAE /* CanvasTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41B51D1EED648700459EAE /* CanvasTools.swift */; };
-		1C41B5201EED7BC900459EAE /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41B51F1EED7BC900459EAE /* Renderer.swift */; };
+		1CD4A4CA1EFAEB4500AA60F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BD1EFAEB4500AA60F6 /* AppDelegate.swift */; };
+		1CD4A4CB1EFAEB4500AA60F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */; };
+		1CD4A4CC1EFAEB4500AA60F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */; };
+		1CD4A4CD1EFAEB4500AA60F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */; };
+		1CD4A4CE1EFAEB4500AA60F6 /* CanvasTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C31EFAEB4500AA60F6 /* CanvasTools.swift */; };
+		1CD4A4CF1EFAEB4500AA60F6 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C41EFAEB4500AA60F6 /* CanvasView.swift */; };
+		1CD4A4D01EFAEB4500AA60F6 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C51EFAEB4500AA60F6 /* Drawable.swift */; };
+		1CD4A4D11EFAEB4500AA60F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C61EFAEB4500AA60F6 /* Info.plist */; };
+		1CD4A4D21EFAEB4500AA60F6 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C71EFAEB4500AA60F6 /* Renderer.swift */; };
+		1CD4A4D31EFAEB4500AA60F6 /* UndoRedoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C81EFAEB4500AA60F6 /* UndoRedoStack.swift */; };
+		1CD4A4D41EFAEB4500AA60F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C91EFAEB4500AA60F6 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C0477C91EEB5AE0001C5261 /* vol2section1video7drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vol2section1video7drawingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C0477CC1EEB5AE0001C5261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C0477CE1EEB5AE0001C5261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C0477D11EEB5AE0001C5261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1C0477D31EEB5AE0001C5261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C0477D61EEB5AE0001C5261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1C0477D81EEB5AE0001C5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C0477DE1EEB5F6C001C5261 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
-		1C0477E01EEB600E001C5261 /* UndoRedoStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoRedoStack.swift; sourceTree = "<group>"; };
-		1C41B51B1EECA97C00459EAE /* Drawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
-		1C41B51D1EED648700459EAE /* CanvasTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasTools.swift; sourceTree = "<group>"; };
-		1C41B51F1EED7BC900459EAE /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		1C0477C91EEB5AE0001C5261 /* section1video7drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = section1video7drawingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD4A4BD1EFAEB4500AA60F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CD4A4C01EFAEB4500AA60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CD4A4C21EFAEB4500AA60F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CD4A4C31EFAEB4500AA60F6 /* CanvasTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasTools.swift; sourceTree = "<group>"; };
+		1CD4A4C41EFAEB4500AA60F6 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		1CD4A4C51EFAEB4500AA60F6 /* Drawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawable.swift; sourceTree = "<group>"; };
+		1CD4A4C61EFAEB4500AA60F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD4A4C71EFAEB4500AA60F6 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		1CD4A4C81EFAEB4500AA60F6 /* UndoRedoStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UndoRedoStack.swift; sourceTree = "<group>"; };
+		1CD4A4C91EFAEB4500AA60F6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +49,7 @@
 		1C0477C01EEB5AE0001C5261 = {
 			isa = PBXGroup;
 			children = (
-				1C0477CB1EEB5AE0001C5261 /* vol2section1video7drawingapp */,
+				1CD4A4BC1EFAEB4500AA60F6 /* section1video7drawingapp */,
 				1C0477CA1EEB5AE0001C5261 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,35 +57,35 @@
 		1C0477CA1EEB5AE0001C5261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C0477C91EEB5AE0001C5261 /* vol2section1video7drawingapp.app */,
+				1C0477C91EEB5AE0001C5261 /* section1video7drawingapp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C0477CB1EEB5AE0001C5261 /* vol2section1video7drawingapp */ = {
+		1CD4A4BC1EFAEB4500AA60F6 /* section1video7drawingapp */ = {
 			isa = PBXGroup;
 			children = (
-				1C0477CC1EEB5AE0001C5261 /* AppDelegate.swift */,
-				1C0477CE1EEB5AE0001C5261 /* ViewController.swift */,
-				1C41B51B1EECA97C00459EAE /* Drawable.swift */,
-				1C41B51F1EED7BC900459EAE /* Renderer.swift */,
-				1C0477DE1EEB5F6C001C5261 /* CanvasView.swift */,
-				1C41B51D1EED648700459EAE /* CanvasTools.swift */,
-				1C0477E01EEB600E001C5261 /* UndoRedoStack.swift */,
-				1C0477D01EEB5AE0001C5261 /* Main.storyboard */,
-				1C0477D31EEB5AE0001C5261 /* Assets.xcassets */,
-				1C0477D51EEB5AE0001C5261 /* LaunchScreen.storyboard */,
-				1C0477D81EEB5AE0001C5261 /* Info.plist */,
+				1CD4A4BD1EFAEB4500AA60F6 /* AppDelegate.swift */,
+				1CD4A4C91EFAEB4500AA60F6 /* ViewController.swift */,
+				1CD4A4C41EFAEB4500AA60F6 /* CanvasView.swift */,
+				1CD4A4C31EFAEB4500AA60F6 /* CanvasTools.swift */,
+				1CD4A4C51EFAEB4500AA60F6 /* Drawable.swift */,
+				1CD4A4C71EFAEB4500AA60F6 /* Renderer.swift */,
+				1CD4A4C81EFAEB4500AA60F6 /* UndoRedoStack.swift */,
+				1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */,
+				1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */,
+				1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */,
+				1CD4A4C61EFAEB4500AA60F6 /* Info.plist */,
 			);
-			path = vol2section1video7drawingapp;
+			path = section1video7drawingapp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C0477C81EEB5AE0001C5261 /* vol2section1video7drawingapp */ = {
+		1C0477C81EEB5AE0001C5261 /* section1video7drawingapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C0477DB1EEB5AE0001C5261 /* Build configuration list for PBXNativeTarget "vol2section1video7drawingapp" */;
+			buildConfigurationList = 1C0477DB1EEB5AE0001C5261 /* Build configuration list for PBXNativeTarget "section1video7drawingapp" */;
 			buildPhases = (
 				1C0477C51EEB5AE0001C5261 /* Sources */,
 				1C0477C61EEB5AE0001C5261 /* Frameworks */,
@@ -94,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = vol2section1video7drawingapp;
+			name = section1video7drawingapp;
 			productName = vol2section1video7drawingapp;
-			productReference = 1C0477C91EEB5AE0001C5261 /* vol2section1video7drawingapp.app */;
+			productReference = 1C0477C91EEB5AE0001C5261 /* section1video7drawingapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C0477C41EEB5AE0001C5261 /* Build configuration list for PBXProject "vol2section1video7drawingapp" */;
+			buildConfigurationList = 1C0477C41EEB5AE0001C5261 /* Build configuration list for PBXProject "section1video7drawingapp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C0477C81EEB5AE0001C5261 /* vol2section1video7drawingapp */,
+				1C0477C81EEB5AE0001C5261 /* section1video7drawingapp */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0477D71EEB5AE0001C5261 /* LaunchScreen.storyboard in Resources */,
-				1C0477D41EEB5AE0001C5261 /* Assets.xcassets in Resources */,
-				1C0477D21EEB5AE0001C5261 /* Main.storyboard in Resources */,
+				1CD4A4CB1EFAEB4500AA60F6 /* Assets.xcassets in Resources */,
+				1CD4A4CD1EFAEB4500AA60F6 /* Main.storyboard in Resources */,
+				1CD4A4CC1EFAEB4500AA60F6 /* LaunchScreen.storyboard in Resources */,
+				1CD4A4D11EFAEB4500AA60F6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,33 +153,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0477E11EEB600E001C5261 /* UndoRedoStack.swift in Sources */,
-				1C0477CF1EEB5AE0001C5261 /* ViewController.swift in Sources */,
-				1C41B5201EED7BC900459EAE /* Renderer.swift in Sources */,
-				1C0477CD1EEB5AE0001C5261 /* AppDelegate.swift in Sources */,
-				1C0477DF1EEB5F6C001C5261 /* CanvasView.swift in Sources */,
-				1C41B51C1EECA97C00459EAE /* Drawable.swift in Sources */,
-				1C41B51E1EED648700459EAE /* CanvasTools.swift in Sources */,
+				1CD4A4CA1EFAEB4500AA60F6 /* AppDelegate.swift in Sources */,
+				1CD4A4CF1EFAEB4500AA60F6 /* CanvasView.swift in Sources */,
+				1CD4A4CE1EFAEB4500AA60F6 /* CanvasTools.swift in Sources */,
+				1CD4A4D41EFAEB4500AA60F6 /* ViewController.swift in Sources */,
+				1CD4A4D31EFAEB4500AA60F6 /* UndoRedoStack.swift in Sources */,
+				1CD4A4D21EFAEB4500AA60F6 /* Renderer.swift in Sources */,
+				1CD4A4D01EFAEB4500AA60F6 /* Drawable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1C0477D01EEB5AE0001C5261 /* Main.storyboard */ = {
+		1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1C0477D11EEB5AE0001C5261 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1C0477D51EEB5AE0001C5261 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C0477D61EEB5AE0001C5261 /* Base */,
+				1CD4A4C01EFAEB4500AA60F6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD4A4C21EFAEB4500AA60F6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,13 +297,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 269EEZ33UG;
-				INFOPLIST_FILE = vol2section1video7drawingapp/Info.plist;
+				INFOPLIST_FILE = section1video7drawingapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video7drawingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 269EEZ33UG;
-				INFOPLIST_FILE = vol2section1video7drawingapp/Info.plist;
+				INFOPLIST_FILE = section1video7drawingapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video7drawingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -325,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C0477C41EEB5AE0001C5261 /* Build configuration list for PBXProject "vol2section1video7drawingapp" */ = {
+		1C0477C41EEB5AE0001C5261 /* Build configuration list for PBXProject "section1video7drawingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C0477D91EEB5AE0001C5261 /* Debug */,
@@ -334,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C0477DB1EEB5AE0001C5261 /* Build configuration list for PBXNativeTarget "vol2section1video7drawingapp" */ = {
+		1C0477DB1EEB5AE0001C5261 /* Build configuration list for PBXNativeTarget "section1video7drawingapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C0477DC1EEB5AE0001C5261 /* Debug */,
