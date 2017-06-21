@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3228591EE8B3D3004F03D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3228581EE8B3D3004F03D8 /* main.swift */; };
+		1CD4A4B81EFAE29600AA60F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4B71EFAE29600AA60F6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1C3228531EE8B3D3004F03D8 /* CopyFiles */ = {
+		1C494C5A1EEEAE6900F32DE9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1C3228551EE8B3D3004F03D8 /* vol2section1video3delegates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vol2section1video3delegates; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C3228581EE8B3D3004F03D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1C494C5C1EEEAE6900F32DE9 /* section1video5optionsetsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section1video5optionsetsequence; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD4A4B71EFAE29600AA60F6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C3228521EE8B3D3004F03D8 /* Frameworks */ = {
+		1C494C591EEEAE6900F32DE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C32284C1EE8B3D3004F03D8 = {
+		1C494C531EEEAE6900F32DE9 = {
 			isa = PBXGroup;
 			children = (
-				1C3228571EE8B3D3004F03D8 /* vol2section1video3delegates */,
-				1C3228561EE8B3D3004F03D8 /* Products */,
+				1CD4A4B61EFAE29600AA60F6 /* section1video5optionsetsequence */,
+				1C494C5D1EEEAE6900F32DE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1C3228561EE8B3D3004F03D8 /* Products */ = {
+		1C494C5D1EEEAE6900F32DE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C3228551EE8B3D3004F03D8 /* vol2section1video3delegates */,
+				1C494C5C1EEEAE6900F32DE9 /* section1video5optionsetsequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1C3228571EE8B3D3004F03D8 /* vol2section1video3delegates */ = {
+		1CD4A4B61EFAE29600AA60F6 /* section1video5optionsetsequence */ = {
 			isa = PBXGroup;
 			children = (
-				1C3228581EE8B3D3004F03D8 /* main.swift */,
+				1CD4A4B71EFAE29600AA60F6 /* main.swift */,
 			);
-			path = vol2section1video3delegates;
+			path = section1video5optionsetsequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C3228541EE8B3D3004F03D8 /* vol2section1video3delegates */ = {
+		1C494C5B1EEEAE6900F32DE9 /* section1video5optionsetsequence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C32285C1EE8B3D3004F03D8 /* Build configuration list for PBXNativeTarget "vol2section1video3delegates" */;
+			buildConfigurationList = 1C494C631EEEAE6900F32DE9 /* Build configuration list for PBXNativeTarget "section1video5optionsetsequence" */;
 			buildPhases = (
-				1C3228511EE8B3D3004F03D8 /* Sources */,
-				1C3228521EE8B3D3004F03D8 /* Frameworks */,
-				1C3228531EE8B3D3004F03D8 /* CopyFiles */,
+				1C494C581EEEAE6900F32DE9 /* Sources */,
+				1C494C591EEEAE6900F32DE9 /* Frameworks */,
+				1C494C5A1EEEAE6900F32DE9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = vol2section1video3delegates;
-			productName = vol2section1video3delegates;
-			productReference = 1C3228551EE8B3D3004F03D8 /* vol2section1video3delegates */;
+			name = section1video5optionsetsequence;
+			productName = vol2section1video5optionsetsequence;
+			productReference = 1C494C5C1EEEAE6900F32DE9 /* section1video5optionsetsequence */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1C32284D1EE8B3D3004F03D8 /* Project object */ = {
+		1C494C541EEEAE6900F32DE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Redonkulous Apps";
 				TargetAttributes = {
-					1C3228541EE8B3D3004F03D8 = {
+					1C494C5B1EEEAE6900F32DE9 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 				};
 			};
-			buildConfigurationList = 1C3228501EE8B3D3004F03D8 /* Build configuration list for PBXProject "vol2section1video3delegates" */;
+			buildConfigurationList = 1C494C571EEEAE6900F32DE9 /* Build configuration list for PBXProject "section1video5optionsetsequence" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1C32284C1EE8B3D3004F03D8;
-			productRefGroup = 1C3228561EE8B3D3004F03D8 /* Products */;
+			mainGroup = 1C494C531EEEAE6900F32DE9;
+			productRefGroup = 1C494C5D1EEEAE6900F32DE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C3228541EE8B3D3004F03D8 /* vol2section1video3delegates */,
+				1C494C5B1EEEAE6900F32DE9 /* section1video5optionsetsequence */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C3228511EE8B3D3004F03D8 /* Sources */ = {
+		1C494C581EEEAE6900F32DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3228591EE8B3D3004F03D8 /* main.swift in Sources */,
+				1CD4A4B81EFAE29600AA60F6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1C32285A1EE8B3D3004F03D8 /* Debug */ = {
+		1C494C611EEEAE6900F32DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		1C32285B1EE8B3D3004F03D8 /* Release */ = {
+		1C494C621EEEAE6900F32DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,45 +228,46 @@
 			};
 			name = Release;
 		};
-		1C32285D1EE8B3D3004F03D8 /* Debug */ = {
+		1C494C641EEEAE6900F32DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1C32285E1EE8B3D3004F03D8 /* Release */ = {
+		1C494C651EEEAE6900F32DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C3228501EE8B3D3004F03D8 /* Build configuration list for PBXProject "vol2section1video3delegates" */ = {
+		1C494C571EEEAE6900F32DE9 /* Build configuration list for PBXProject "section1video5optionsetsequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C32285A1EE8B3D3004F03D8 /* Debug */,
-				1C32285B1EE8B3D3004F03D8 /* Release */,
+				1C494C611EEEAE6900F32DE9 /* Debug */,
+				1C494C621EEEAE6900F32DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C32285C1EE8B3D3004F03D8 /* Build configuration list for PBXNativeTarget "vol2section1video3delegates" */ = {
+		1C494C631EEEAE6900F32DE9 /* Build configuration list for PBXNativeTarget "section1video5optionsetsequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C32285D1EE8B3D3004F03D8 /* Debug */,
-				1C32285E1EE8B3D3004F03D8 /* Release */,
+				1C494C641EEEAE6900F32DE9 /* Debug */,
+				1C494C651EEEAE6900F32DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1C32284D1EE8B3D3004F03D8 /* Project object */;
+	rootObject = 1C494C541EEEAE6900F32DE9 /* Project object */;
 }

@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C3228541EE8B3D3004F03D8"
-               BuildableName = "vol2section1video3delegates"
-               BlueprintName = "vol2section1video3delegates"
-               ReferencedContainer = "container:vol2section1video3delegates.xcodeproj">
+               BlueprintIdentifier = "1C3228B71EE9F403004F03D8"
+               BuildableName = "JSONRequest.app"
+               BlueprintName = "JSONRequest"
+               ReferencedContainer = "container:section1video4testing.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C3228C91EE9F403004F03D8"
+               BuildableName = "JSONRequestTests.xctest"
+               BlueprintName = "JSONRequestTests"
+               ReferencedContainer = "container:section1video4testing.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C3228541EE8B3D3004F03D8"
-            BuildableName = "vol2section1video3delegates"
-            BlueprintName = "vol2section1video3delegates"
-            ReferencedContainer = "container:vol2section1video3delegates.xcodeproj">
+            BlueprintIdentifier = "1C3228B71EE9F403004F03D8"
+            BuildableName = "JSONRequest.app"
+            BlueprintName = "JSONRequest"
+            ReferencedContainer = "container:section1video4testing.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C3228541EE8B3D3004F03D8"
-            BuildableName = "vol2section1video3delegates"
-            BlueprintName = "vol2section1video3delegates"
-            ReferencedContainer = "container:vol2section1video3delegates.xcodeproj">
+            BlueprintIdentifier = "1C3228B71EE9F403004F03D8"
+            BuildableName = "JSONRequest.app"
+            BlueprintName = "JSONRequest"
+            ReferencedContainer = "container:section1video4testing.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,16 +80,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C3228541EE8B3D3004F03D8"
-            BuildableName = "vol2section1video3delegates"
-            BlueprintName = "vol2section1video3delegates"
-            ReferencedContainer = "container:vol2section1video3delegates.xcodeproj">
+            BlueprintIdentifier = "1C3228B71EE9F403004F03D8"
+            BuildableName = "JSONRequest.app"
+            BlueprintName = "JSONRequest"
+            ReferencedContainer = "container:section1video4testing.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

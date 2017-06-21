@@ -145,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C3228B31EE9F403004F03D8 /* Build configuration list for PBXProject "vol2section1video4testing" */;
+			buildConfigurationList = 1C3228B31EE9F403004F03D8 /* Build configuration list for PBXProject "section1video4testing" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -328,7 +328,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -346,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -361,7 +361,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video4testingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -376,14 +376,14 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video4testingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C3228B31EE9F403004F03D8 /* Build configuration list for PBXProject "vol2section1video4testing" */ = {
+		1C3228B31EE9F403004F03D8 /* Build configuration list for PBXProject "section1video4testing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C3228D11EE9F403004F03D8 /* Debug */,
