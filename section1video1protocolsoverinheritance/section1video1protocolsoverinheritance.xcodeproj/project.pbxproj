@@ -235,6 +235,7 @@
 		1CBC85781ED9DE3C00D1FE8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -245,6 +246,7 @@
 		1CBC85791ED9DE3C00D1FE8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

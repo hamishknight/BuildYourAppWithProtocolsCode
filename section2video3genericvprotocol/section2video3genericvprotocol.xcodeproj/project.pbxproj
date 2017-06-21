@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF2CA421EF85AAF00BA8DCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF2CA411EF85AAF00BA8DCF /* main.swift */; };
+		1CD4A4E01EFAEED600AA60F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4DF1EFAEED600AA60F6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1CF2CA3E1EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vol2section2video3genericvprotocol; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CF2CA411EF85AAF00BA8DCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1CD4A4DF1EFAEED600AA60F6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1CF2CA3E1EF85AAF00BA8DCF /* section2video3genericvprotocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section2video3genericvprotocol; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CD4A4DE1EFAEED600AA60F6 /* section2video3genericvprotocol */ = {
+			isa = PBXGroup;
+			children = (
+				1CD4A4DF1EFAEED600AA60F6 /* main.swift */,
+			);
+			path = section2video3genericvprotocol;
+			sourceTree = "<group>";
+		};
 		1CF2CA351EF85AAF00BA8DCF = {
 			isa = PBXGroup;
 			children = (
-				1CF2CA401EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */,
+				1CD4A4DE1EFAEED600AA60F6 /* section2video3genericvprotocol */,
 				1CF2CA3F1EF85AAF00BA8DCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +57,17 @@
 		1CF2CA3F1EF85AAF00BA8DCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CF2CA3E1EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */,
+				1CF2CA3E1EF85AAF00BA8DCF /* section2video3genericvprotocol */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1CF2CA401EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */ = {
-			isa = PBXGroup;
-			children = (
-				1CF2CA411EF85AAF00BA8DCF /* main.swift */,
-			);
-			path = vol2section2video3genericvprotocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CF2CA3D1EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */ = {
+		1CF2CA3D1EF85AAF00BA8DCF /* section2video3genericvprotocol */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CF2CA451EF85AAF00BA8DCF /* Build configuration list for PBXNativeTarget "vol2section2video3genericvprotocol" */;
+			buildConfigurationList = 1CF2CA451EF85AAF00BA8DCF /* Build configuration list for PBXNativeTarget "section2video3genericvprotocol" */;
 			buildPhases = (
 				1CF2CA3A1EF85AAF00BA8DCF /* Sources */,
 				1CF2CA3B1EF85AAF00BA8DCF /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = vol2section2video3genericvprotocol;
+			name = section2video3genericvprotocol;
 			productName = vol2section2video3genericvprotocol;
-			productReference = 1CF2CA3E1EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */;
+			productReference = 1CF2CA3E1EF85AAF00BA8DCF /* section2video3genericvprotocol */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1CF2CA391EF85AAF00BA8DCF /* Build configuration list for PBXProject "vol2section2video3genericvprotocol" */;
+			buildConfigurationList = 1CF2CA391EF85AAF00BA8DCF /* Build configuration list for PBXProject "section2video3genericvprotocol" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CF2CA3D1EF85AAF00BA8DCF /* vol2section2video3genericvprotocol */,
+				1CF2CA3D1EF85AAF00BA8DCF /* section2video3genericvprotocol */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CF2CA421EF85AAF00BA8DCF /* main.swift in Sources */,
+				1CD4A4E01EFAEED600AA60F6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,25 +235,27 @@
 		1CF2CA461EF85AAF00BA8DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1CF2CA471EF85AAF00BA8DCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CF2CA391EF85AAF00BA8DCF /* Build configuration list for PBXProject "vol2section2video3genericvprotocol" */ = {
+		1CF2CA391EF85AAF00BA8DCF /* Build configuration list for PBXProject "section2video3genericvprotocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CF2CA431EF85AAF00BA8DCF /* Debug */,
@@ -262,7 +264,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CF2CA451EF85AAF00BA8DCF /* Build configuration list for PBXNativeTarget "vol2section2video3genericvprotocol" */ = {
+		1CF2CA451EF85AAF00BA8DCF /* Build configuration list for PBXNativeTarget "section2video3genericvprotocol" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1CF2CA461EF85AAF00BA8DCF /* Debug */,

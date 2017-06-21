@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1CD4A4CA1EFAEB4500AA60F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BD1EFAEB4500AA60F6 /* AppDelegate.swift */; };
-		1CD4A4CB1EFAEB4500AA60F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */; };
-		1CD4A4CC1EFAEB4500AA60F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */; };
-		1CD4A4CD1EFAEB4500AA60F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */; };
 		1CD4A4CE1EFAEB4500AA60F6 /* CanvasTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C31EFAEB4500AA60F6 /* CanvasTools.swift */; };
 		1CD4A4CF1EFAEB4500AA60F6 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C41EFAEB4500AA60F6 /* CanvasView.swift */; };
 		1CD4A4D01EFAEB4500AA60F6 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C51EFAEB4500AA60F6 /* Drawable.swift */; };
-		1CD4A4D11EFAEB4500AA60F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C61EFAEB4500AA60F6 /* Info.plist */; };
 		1CD4A4D21EFAEB4500AA60F6 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C71EFAEB4500AA60F6 /* Renderer.swift */; };
 		1CD4A4D31EFAEB4500AA60F6 /* UndoRedoStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C81EFAEB4500AA60F6 /* UndoRedoStack.swift */; };
 		1CD4A4D41EFAEB4500AA60F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C91EFAEB4500AA60F6 /* ViewController.swift */; };
+		1CD4A4D51EFAEC1C00AA60F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */; };
+		1CD4A4D61EFAEC1C00AA60F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */; };
+		1CD4A4D71EFAEC1C00AA60F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,9 +71,9 @@
 				1CD4A4C51EFAEB4500AA60F6 /* Drawable.swift */,
 				1CD4A4C71EFAEB4500AA60F6 /* Renderer.swift */,
 				1CD4A4C81EFAEB4500AA60F6 /* UndoRedoStack.swift */,
-				1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */,
-				1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */,
 				1CD4A4C11EFAEB4500AA60F6 /* Main.storyboard */,
+				1CD4A4BF1EFAEB4500AA60F6 /* LaunchScreen.storyboard */,
+				1CD4A4BE1EFAEB4500AA60F6 /* Assets.xcassets */,
 				1CD4A4C61EFAEB4500AA60F6 /* Info.plist */,
 			);
 			path = section1video7drawingapp;
@@ -139,10 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD4A4CB1EFAEB4500AA60F6 /* Assets.xcassets in Resources */,
-				1CD4A4CD1EFAEB4500AA60F6 /* Main.storyboard in Resources */,
-				1CD4A4CC1EFAEB4500AA60F6 /* LaunchScreen.storyboard in Resources */,
-				1CD4A4D11EFAEB4500AA60F6 /* Info.plist in Resources */,
+				1CD4A4D51EFAEC1C00AA60F6 /* Main.storyboard in Resources */,
+				1CD4A4D61EFAEC1C00AA60F6 /* LaunchScreen.storyboard in Resources */,
+				1CD4A4D71EFAEC1C00AA60F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				INFOPLIST_FILE = section1video7drawingapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video7drawingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamishknight.section1video7drawingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;
@@ -312,11 +311,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				INFOPLIST_FILE = section1video7drawingapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video7drawingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamishknight.section1video7drawingapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 3.0;

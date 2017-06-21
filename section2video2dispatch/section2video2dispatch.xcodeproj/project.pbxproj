@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CA396801EF557130033A14E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3967F1EF557130033A14E /* main.swift */; };
+		1CD4A4DD1EFAEE6500AA60F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4A4DC1EFAEE6500AA60F6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1CA3967A1EF557130033A14E /* CopyFiles */ = {
+		1CA396B31EF5DB3D0033A14E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1CA3967C1EF557130033A14E /* vol2section2video1existential */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vol2section2video1existential; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CA3967F1EF557130033A14E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1CA396B51EF5DB3D0033A14E /* section2video2dispatch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = section2video2dispatch; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD4A4DC1EFAEE6500AA60F6 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CA396791EF557130033A14E /* Frameworks */ = {
+		1CA396B21EF5DB3D0033A14E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CA396731EF557120033A14E = {
+		1CA396AC1EF5DB3D0033A14E = {
 			isa = PBXGroup;
 			children = (
-				1CA3967E1EF557130033A14E /* vol2section2video1existential */,
-				1CA3967D1EF557130033A14E /* Products */,
+				1CD4A4DB1EFAEE6500AA60F6 /* section2video2dispatch */,
+				1CA396B61EF5DB3D0033A14E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1CA3967D1EF557130033A14E /* Products */ = {
+		1CA396B61EF5DB3D0033A14E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CA3967C1EF557130033A14E /* vol2section2video1existential */,
+				1CA396B51EF5DB3D0033A14E /* section2video2dispatch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CA3967E1EF557130033A14E /* vol2section2video1existential */ = {
+		1CD4A4DB1EFAEE6500AA60F6 /* section2video2dispatch */ = {
 			isa = PBXGroup;
 			children = (
-				1CA3967F1EF557130033A14E /* main.swift */,
+				1CD4A4DC1EFAEE6500AA60F6 /* main.swift */,
 			);
-			path = vol2section2video1existential;
+			path = section2video2dispatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1CA3967B1EF557130033A14E /* vol2section2video1existential */ = {
+		1CA396B41EF5DB3D0033A14E /* section2video2dispatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CA396831EF557130033A14E /* Build configuration list for PBXNativeTarget "vol2section2video1existential" */;
+			buildConfigurationList = 1CA396BC1EF5DB3D0033A14E /* Build configuration list for PBXNativeTarget "section2video2dispatch" */;
 			buildPhases = (
-				1CA396781EF557130033A14E /* Sources */,
-				1CA396791EF557130033A14E /* Frameworks */,
-				1CA3967A1EF557130033A14E /* CopyFiles */,
+				1CA396B11EF5DB3D0033A14E /* Sources */,
+				1CA396B21EF5DB3D0033A14E /* Frameworks */,
+				1CA396B31EF5DB3D0033A14E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = vol2section2video1existential;
-			productName = vol2section2video1existential;
-			productReference = 1CA3967C1EF557130033A14E /* vol2section2video1existential */;
+			name = section2video2dispatch;
+			productName = vol2section2video2dispatch;
+			productReference = 1CA396B51EF5DB3D0033A14E /* section2video2dispatch */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1CA396741EF557120033A14E /* Project object */ = {
+		1CA396AD1EF5DB3D0033A14E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Redonkulous Apps";
 				TargetAttributes = {
-					1CA3967B1EF557130033A14E = {
+					1CA396B41EF5DB3D0033A14E = {
 						CreatedOnToolsVersion = 9.0;
 					};
 				};
 			};
-			buildConfigurationList = 1CA396771EF557120033A14E /* Build configuration list for PBXProject "vol2section2video1existential" */;
+			buildConfigurationList = 1CA396B01EF5DB3D0033A14E /* Build configuration list for PBXProject "section2video2dispatch" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1CA396731EF557120033A14E;
-			productRefGroup = 1CA3967D1EF557130033A14E /* Products */;
+			mainGroup = 1CA396AC1EF5DB3D0033A14E;
+			productRefGroup = 1CA396B61EF5DB3D0033A14E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1CA3967B1EF557130033A14E /* vol2section2video1existential */,
+				1CA396B41EF5DB3D0033A14E /* section2video2dispatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1CA396781EF557130033A14E /* Sources */ = {
+		1CA396B11EF5DB3D0033A14E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA396801EF557130033A14E /* main.swift in Sources */,
+				1CD4A4DD1EFAEE6500AA60F6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1CA396811EF557130033A14E /* Debug */ = {
+		1CA396BA1EF5DB3D0033A14E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		1CA396821EF557130033A14E /* Release */ = {
+		1CA396BB1EF5DB3D0033A14E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,45 +228,48 @@
 			};
 			name = Release;
 		};
-		1CA396841EF557130033A14E /* Debug */ = {
+		1CA396BD1EF5DB3D0033A14E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1CA396851EF557130033A14E /* Release */ = {
+		1CA396BE1EF5DB3D0033A14E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CA396771EF557120033A14E /* Build configuration list for PBXProject "vol2section2video1existential" */ = {
+		1CA396B01EF5DB3D0033A14E /* Build configuration list for PBXProject "section2video2dispatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CA396811EF557130033A14E /* Debug */,
-				1CA396821EF557130033A14E /* Release */,
+				1CA396BA1EF5DB3D0033A14E /* Debug */,
+				1CA396BB1EF5DB3D0033A14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1CA396831EF557130033A14E /* Build configuration list for PBXNativeTarget "vol2section2video1existential" */ = {
+		1CA396BC1EF5DB3D0033A14E /* Build configuration list for PBXNativeTarget "section2video2dispatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CA396841EF557130033A14E /* Debug */,
-				1CA396851EF557130033A14E /* Release */,
+				1CA396BD1EF5DB3D0033A14E /* Debug */,
+				1CA396BE1EF5DB3D0033A14E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1CA396741EF557120033A14E /* Project object */;
+	rootObject = 1CA396AD1EF5DB3D0033A14E /* Project object */;
 }

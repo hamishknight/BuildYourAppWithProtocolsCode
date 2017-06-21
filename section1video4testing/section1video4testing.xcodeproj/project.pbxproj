@@ -323,7 +323,7 @@
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				INFOPLIST_FILE = JSONRequest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video4testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamishknight.section1video4testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -342,7 +342,7 @@
 				DEVELOPMENT_TEAM = 269EEZ33UG;
 				INFOPLIST_FILE = JSONRequest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.redonkulousapps.vol2section1video4testing;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamishknight.section1video4testing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
