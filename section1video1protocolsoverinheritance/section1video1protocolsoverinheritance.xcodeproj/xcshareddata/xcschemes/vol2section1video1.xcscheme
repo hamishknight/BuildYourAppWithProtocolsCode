@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1CBC856F1ED9DE3C00D1FE8E"
-               BuildableName = "vol2section1video1"
-               BlueprintName = "vol2section1video1"
-               ReferencedContainer = "container:vol2section1video1.xcodeproj">
+               BuildableName = "section1video1protocolsoverinheritance"
+               BlueprintName = "section1video1protocolsoverinheritance"
+               ReferencedContainer = "container:section1video1protocolsoverinheritance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1CBC856F1ED9DE3C00D1FE8E"
-            BuildableName = "vol2section1video1"
-            BlueprintName = "vol2section1video1"
-            ReferencedContainer = "container:vol2section1video1.xcodeproj">
+            BuildableName = "section1video1protocolsoverinheritance"
+            BlueprintName = "section1video1protocolsoverinheritance"
+            ReferencedContainer = "container:section1video1protocolsoverinheritance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1CBC856F1ED9DE3C00D1FE8E"
-            BuildableName = "vol2section1video1"
-            BlueprintName = "vol2section1video1"
-            ReferencedContainer = "container:vol2section1video1.xcodeproj">
+            BuildableName = "section1video1protocolsoverinheritance"
+            BlueprintName = "section1video1protocolsoverinheritance"
+            ReferencedContainer = "container:section1video1protocolsoverinheritance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1CBC856F1ED9DE3C00D1FE8E"
-            BuildableName = "vol2section1video1"
-            BlueprintName = "vol2section1video1"
-            ReferencedContainer = "container:vol2section1video1.xcodeproj">
+            BuildableName = "section1video1protocolsoverinheritance"
+            BlueprintName = "section1video1protocolsoverinheritance"
+            ReferencedContainer = "container:section1video1protocolsoverinheritance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
